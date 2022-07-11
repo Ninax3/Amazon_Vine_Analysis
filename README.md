@@ -13,7 +13,13 @@ Sofware:
 - PgAdmin 4; PostgreSql 14
 
 ## Results
-Data was filtered for video game titles that had 20 or more reviews, then filtered for a ratio of "helpful votes" to "total "votes" of 50% or greater. Then votes were counted for "unpaid votes" (non-vine votes) versus "paid votes" (vine votes) and the percentage was calculated for each versus "5-star reviews" per each category. 
+Amazon Review Datasets for US video games was ETL'd (Extract, Transformed and Loaded) using AWS RDS, PySpark, Google Collab using Python and PostgreSQL. 
+
+See code here, https://github.com/Ninax3/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb
+
+Next, the Vine_Table was used to filter for video game titles that had 20 or more reviews, then filtered for a ratio of "helpful votes" to "total "votes" of 50% or greater. Then votes were counted for "unpaid votes" (non-vine votes) versus "paid votes" (vine votes) and the percentage was calculated for each versus "5-star reviews" per each category. 
+
+See code here, 
 
 There were 94 paid (Amazon Vine Program) reviews including 48 "5-star" reviews, for a percentage of 51.1%
 
