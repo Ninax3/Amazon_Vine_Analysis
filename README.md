@@ -18,7 +18,8 @@ Amazon Review Datasets for US video games was ETL'd (Extract, Transformed and Lo
 See code here, https://github.com/Ninax3/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb
 
 Vine Table Data
-
+![MechaCar_Statistical_Analysis "total_summary"](https://github.com/Ninax3/MechaCar_Statistical_Analysis/blob/main/total_summary.png)
+![Amazon_Vine_Analysis "Vine_Table_df"](
 
 Next, the Vine_Table was used to filter for video game titles that had 20 or more reviews, then filtered for a ratio of "helpful votes" to "total "votes" of 50% or greater. Then votes were counted for "unpaid votes" (non-vine votes) versus "paid votes" (vine votes) and the percentage was calculated for each versus "5-star reviews" per each category. 
 
