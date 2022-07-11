@@ -20,4 +20,6 @@ There were 94 paid (Amazon Vine Program) reviews including 48 "5-star" reviews, 
 There were 40,471 unpaid reviews including 15,663 "5-star" reviews, for a percentage of 38.7%
 
 ## Summary
-With 51.1% of the Amazon Vine Program reviews having a "5-star" review versus 38.7% of non-paid reviews having a "5-star" review, the data shows there is a positivity bias for reviews in the Amazon Vine Program. To further confirm this finding, an additional anlaysis is recommended to compare the statistical distribution (mean and standard deviation) of each review sample. 
+With 51.1% of the Amazon Vine Program reviews having a "5-star" review versus 38.7% of non-paid reviews having a "5-star" review, the data shows there is a positivity bias for reviews in the Amazon Vine Program. To further confirm this finding, an additional anlaysis is recommended to 
+1. perform the same analysis on datasets for "paid" and "unpaid" for "verified purchases" and 
+2. compare the statistical distribution (mean and standard deviation) of each review sample. 
