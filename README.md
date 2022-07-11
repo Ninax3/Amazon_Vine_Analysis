@@ -3,14 +3,10 @@
 ## Overview
 The Sellby company has asked to analyze Amazon reviews written by the Amazon Vine Program, a pay-for-review program to determine if there is a bias for favorable reviews. In this analysis, a dataset of over 1.78 million reviews on videogames was selected to perform an ETL process using the following resources. 
 
-Data Source:
-- S3 AWS Amazon Review Datasets for US video games <br>
-
-Sofware: 
-- PySpark - Spark version 3.0.3
-- AWS (Amazon Web Services) RDS (Relational Database Service)
-- Google Collab using Python
-- PgAdmin 4; PostgreSql 14
+#### Data Source: 
+S3 AWS Amazon Review Datasets for US video games <br>
+#### Sofware: 
+Spark version 3.0.3 (PySpark); AWS (Amazon Web Services) RDS (Relational Database Service); Google Collab using Python;<br> PgAdmin 4; PostgreSql 14
 
 ## Results
 Amazon Review Datasets for US video games was ETL'd (Extract, Transformed and Loaded) using AWS RDS, PySpark, Google Collab using Python and PostgreSQL. 
