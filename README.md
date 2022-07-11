@@ -17,13 +17,16 @@ Amazon Review Datasets for US video games was ETL'd (Extract, Transformed and Lo
 
 See code here, https://github.com/Ninax3/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb
 
+Vine Table Data
+
+
 Next, the Vine_Table was used to filter for video game titles that had 20 or more reviews, then filtered for a ratio of "helpful votes" to "total "votes" of 50% or greater. Then votes were counted for "unpaid votes" (non-vine votes) versus "paid votes" (vine votes) and the percentage was calculated for each versus "5-star reviews" per each category. 
 
-See code here, 
+See code here, https://github.com/Ninax3/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb
 
-There were 94 paid (Amazon Vine Program) reviews including 48 "5-star" reviews, for a percentage of 51.1%
+-There were 94 paid (Amazon Vine Program) reviews including 48 "5-star" reviews, for a percentage of 51.1%
 
-There were 40,471 unpaid reviews including 15,663 "5-star" reviews, for a percentage of 38.7%
+-There were 40,471 unpaid reviews including 15,663 "5-star" reviews, for a percentage of 38.7%
 
 ## Summary
 With 51.1% of the Amazon Vine Program reviews having a "5-star" review versus 38.7% of non-paid reviews having a "5-star" review, the data shows there is a positivity bias for reviews in the Amazon Vine Program. To further confirm this finding, an additional anlaysis is recommended to 
